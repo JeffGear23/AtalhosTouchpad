@@ -1,0 +1,343 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 15:23+0000\n"
+"PO-Revision-Date: 2026-10-14 13:34+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /home/ubuntu/pincatouch/prefs.js:56
+msgid "AtalhosTouchpad"
+msgstr "AtalhosTouchpad"
+
+#: /home/ubuntu/pincatouch/prefs.js:60
+msgid "Pinças"
+msgstr "Pinzas"
+
+#: /home/ubuntu/pincatouch/prefs.js:65
+msgid "2 dedos"
+msgstr "2 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:65
+msgid "3 dedos"
+msgstr "3 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:65
+msgid "4 dedos"
+msgstr "4 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:67
+#, javascript-format
+msgid "Pinça com %s"
+msgstr "Pinza con %s"
+
+#: /home/ubuntu/pincatouch/prefs.js:68
+msgid "Escolha uma combinação de teclas para cada direção."
+msgstr "Elige una combinación de teclas para cada dirección."
+
+#: /home/ubuntu/pincatouch/prefs.js:72
+msgid "Pinça para dentro"
+msgstr "Pinza hacia dentro"
+
+#: /home/ubuntu/pincatouch/prefs.js:74
+msgid "Pinça para fora"
+msgstr "Pinza hacia fuera"
+
+#: /home/ubuntu/pincatouch/prefs.js:78
+msgid "Gestos"
+msgstr "Gestos"
+
+#: /home/ubuntu/pincatouch/prefs.js:84
+msgid "Swipe com 3 dedos"
+msgstr "Deslizamiento con 3 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:85 /home/ubuntu/pincatouch/prefs.js:100
+msgid "Configure os gestos para cima, baixo, esquerda e direita."
+msgstr "Configura los gestos hacia arriba, abajo, izquierda y derecha."
+
+#: /home/ubuntu/pincatouch/prefs.js:89 /home/ubuntu/pincatouch/prefs.js:104
+msgid "Swipe para cima"
+msgstr "Deslizar hacia arriba"
+
+#: /home/ubuntu/pincatouch/prefs.js:90 /home/ubuntu/pincatouch/prefs.js:105
+msgid "Swipe para baixo"
+msgstr "Deslizar hacia abajo"
+
+#: /home/ubuntu/pincatouch/prefs.js:91 /home/ubuntu/pincatouch/prefs.js:106
+msgid "Swipe para a esquerda"
+msgstr "Deslizar a la izquierda"
+
+#: /home/ubuntu/pincatouch/prefs.js:92 /home/ubuntu/pincatouch/prefs.js:107
+msgid "Swipe para a direita"
+msgstr "Deslizar a la derecha"
+
+#: /home/ubuntu/pincatouch/prefs.js:99
+msgid "Swipe com 4 dedos"
+msgstr "Deslizamiento con 4 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:114
+msgid "Toque"
+msgstr "Toque"
+
+#: /home/ubuntu/pincatouch/prefs.js:118 /home/ubuntu/pincatouch/prefs.js:122
+msgid "Toque com 4 dedos"
+msgstr "Toque con 4 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:119
+msgid "Defina quanto tempo o toque pode durar para ser reconhecido."
+msgstr "Define cuánto tiempo puede durar el toque para ser reconocido."
+
+#: /home/ubuntu/pincatouch/prefs.js:127
+msgid "Top Bar"
+msgstr "Barra superior"
+
+#: /home/ubuntu/pincatouch/prefs.js:133
+msgid "Recomendação"
+msgstr "Recomendación"
+
+#: /home/ubuntu/pincatouch/prefs.js:134
+msgid ""
+"Para volume e brilho, prefira as predefinições Aumentar volume, Diminuir "
+"volume, Aumentar brilho e Diminuir brilho. Elas usam as teclas multimídia "
+"padrão do GNOME e funcionam independentemente do aplicativo ativo."
+msgstr ""
+
+#: /home/ubuntu/pincatouch/prefs.js:139
+msgid "Top Bar — esquerda"
+msgstr "Top Bar — izquierda"
+
+#: /home/ubuntu/pincatouch/prefs.js:140
+msgid "Top Bar — direita"
+msgstr "Top Bar — derecha"
+
+#: /home/ubuntu/pincatouch/prefs.js:144
+msgid "Um espaço sem atalho mantém a rolagem normal do GNOME."
+msgstr "Una región sin atajo mantiene el desplazamiento normal de GNOME."
+
+#: /home/ubuntu/pincatouch/prefs.js:148
+msgid "Rolar para cima"
+msgstr "Desplazar hacia arriba"
+
+#: /home/ubuntu/pincatouch/prefs.js:150
+msgid "Rolar para baixo"
+msgstr "Desplazar hacia abajo"
+
+#: /home/ubuntu/pincatouch/prefs.js:153
+msgid "Sensibilidade"
+msgstr "Sensibilidad"
+
+#: /home/ubuntu/pincatouch/prefs.js:165
+msgid "Mostrar painel rápido"
+msgstr "Mostrar ajustes rápidos"
+
+#: /home/ubuntu/pincatouch/prefs.js:166
+msgid "Mostrar visão geral"
+msgstr "Mostrar vista general"
+
+#: /home/ubuntu/pincatouch/prefs.js:167
+msgid "Mostrar aplicativos"
+msgstr "Mostrar aplicaciones"
+
+#: /home/ubuntu/pincatouch/prefs.js:168
+msgid "Arquivos"
+msgstr "Archivos"
+
+#: /home/ubuntu/pincatouch/prefs.js:169
+msgid "Área de trabalho à esquerda"
+msgstr "Espacio de trabajo izquierdo"
+
+#: /home/ubuntu/pincatouch/prefs.js:170
+msgid "Área de trabalho à direita"
+msgstr "Espacio de trabajo derecho"
+
+#: /home/ubuntu/pincatouch/prefs.js:171
+msgid "Alternar aplicativos"
+msgstr "Cambiar de aplicación"
+
+#: /home/ubuntu/pincatouch/prefs.js:172
+msgid "Fechar janela"
+msgstr "Cerrar ventana"
+
+#: /home/ubuntu/pincatouch/prefs.js:173
+msgid "Anterior"
+msgstr "Anterior"
+
+#: /home/ubuntu/pincatouch/prefs.js:174
+msgid "Próximo"
+msgstr "Siguiente"
+
+#: /home/ubuntu/pincatouch/prefs.js:175
+msgid "Aba anterior"
+msgstr "Pestaña anterior"
+
+#: /home/ubuntu/pincatouch/prefs.js:176
+msgid "Próxima aba"
+msgstr "Pestaña siguiente"
+
+#: /home/ubuntu/pincatouch/prefs.js:177
+msgid "Mostrar notificações"
+msgstr "Mostrar notificaciones"
+
+#: /home/ubuntu/pincatouch/prefs.js:178
+msgid "Nova aba do navegador"
+msgstr "Nueva pestaña del navegador"
+
+#: /home/ubuntu/pincatouch/prefs.js:179
+msgid "Fechar aba do navegador"
+msgstr "Cerrar pestaña del navegador"
+
+#: /home/ubuntu/pincatouch/prefs.js:180
+msgid "Bloquear tela"
+msgstr "Bloquear pantalla"
+
+#: /home/ubuntu/pincatouch/prefs.js:181
+msgid "Captura de tela"
+msgstr "Captura de pantalla"
+
+#: /home/ubuntu/pincatouch/prefs.js:182
+msgid "Aumentar volume"
+msgstr "Subir volumen"
+
+#: /home/ubuntu/pincatouch/prefs.js:183
+msgid "Diminuir volume"
+msgstr "Bajar volumen"
+
+#: /home/ubuntu/pincatouch/prefs.js:184
+msgid "Aumentar brilho"
+msgstr "Aumentar brillo"
+
+#: /home/ubuntu/pincatouch/prefs.js:185
+msgid "Diminuir brilho"
+msgstr "Disminuir brillo"
+
+#: /home/ubuntu/pincatouch/prefs.js:192
+msgid "Sensibilidade do toque com 4 dedos"
+msgstr "Sensibilidad del toque con 4 dedos"
+
+#: /home/ubuntu/pincatouch/prefs.js:208
+#, javascript-format
+msgid "O toque será reconhecido até %s ms."
+msgstr "El toque se reconocerá hasta %s ms."
+
+#: /home/ubuntu/pincatouch/prefs.js:223
+msgid "Sensibilidade da rolagem"
+msgstr "Sensibilidad del desplazamiento"
+
+#: /home/ubuntu/pincatouch/prefs.js:239
+#, javascript-format
+msgid "O valor %s mantém o comportamento atual."
+msgstr "El valor %s mantiene el comportamiento actual."
+
+#: /home/ubuntu/pincatouch/prefs.js:254
+msgid "Modo de reconhecimento"
+msgstr "Modo de reconocimiento"
+
+#: /home/ubuntu/pincatouch/prefs.js:255
+msgid "Escolha se o limite de duração deve ser aplicado."
+msgstr "Elija si se debe aplicar el límite de duración."
+
+#: /home/ubuntu/pincatouch/prefs.js:258
+msgid "Usar limite de duração"
+msgstr "Usar límite de duración"
+
+#: /home/ubuntu/pincatouch/prefs.js:259
+msgid "Aceitar qualquer duração"
+msgstr "Aceptar cualquier duración"
+
+#: /home/ubuntu/pincatouch/prefs.js:288
+msgid "Atalho personalizado…"
+msgstr "Atajo personalizado…"
+
+#: /home/ubuntu/pincatouch/prefs.js:293
+msgid "Gravar"
+msgstr "Grabar"
+
+#: /home/ubuntu/pincatouch/prefs.js:298
+msgid "Limpar"
+msgstr "Borrar"
+
+#: /home/ubuntu/pincatouch/prefs.js:340
+msgid "Gravar atalho"
+msgstr "Grabar atajo"
+
+#: /home/ubuntu/pincatouch/prefs.js:358
+msgid "Pressione a combinação de teclas desejada"
+msgstr "Pulsa la combinación de teclas deseada"
+
+#: /home/ubuntu/pincatouch/prefs.js:361
+msgid "Esc cancela"
+msgstr "Esc cancela"
+
+#: /home/ubuntu/pincatouch/prefs.js:380
+msgid "Pressione uma tecla não modificadora"
+msgstr "Pulsa una tecla no modificadora"
+
+#: /home/ubuntu/pincatouch/prefs.js:405
+msgid "Não configurado"
+msgstr "Sin configurar"
+
+#~ msgid "Rolagem na barra superior"
+#~ msgstr "Desplazamiento en la barra superior"
+
+#~ msgid "Escolha um atalho para cada direção da rolagem."
+#~ msgstr "Elige un atajo para cada dirección del desplazamiento."
+
+#~ msgid "Nova aba"
+#~ msgstr "Nueva pestaña"
+
+#~ msgid "Fechar aba"
+#~ msgstr "Cerrar pestaña"
+
+#~ msgid "Alta — 250 ms"
+#~ msgstr "Alta — 250 ms"
+
+#~ msgid "Média — 500 ms"
+#~ msgstr "Media — 500 ms"
+
+#~ msgid "Baixa — 1000 ms"
+#~ msgstr "Baja — 1000 ms"
+
+#~ msgid "Sensibilidade do toque"
+#~ msgstr "Sensibilidad del toque"
+
+#~ msgid "Alta é mais rápida; baixa aceita um toque mais demorado."
+#~ msgstr "Alta es más rápida; baja acepta un toque más largo."
+
+#~ msgid "Dois dedos"
+#~ msgstr "Dos dedos"
+
+#~ msgid "Três dedos"
+#~ msgstr "Tres dedos"
+
+#~ msgid "Quatro dedos"
+#~ msgstr "Cuatro dedos"
+
+#~ msgid "Swipe com três dedos"
+#~ msgstr "Deslizamiento con tres dedos"
+
+#~ msgid "Swipe com quatro dedos"
+#~ msgstr "Deslizamiento con cuatro dedos"
+
+#~ msgid "Toque com quatro dedos"
+#~ msgstr "Toque con cuatro dedos"
+
+#~ msgid ""
+#~ "Transforma pinças de 2, 3 e 4 dedos, swipes de 3 e 4 dedos e toque de 4 "
+#~ "dedos em ações nativas do GNOME ou atalhos de teclado configuráveis, com "
+#~ "predefinições para volume, brilho, workspaces e painel."
+#~ msgstr ""
+#~ "Convierte pinzas de 2, 3 y 4 dedos, deslizamientos de 3 y 4 dedos y "
+#~ "toques de 4 dedos en acciones nativas de GNOME o atajos de teclado "
+#~ "configurables, con preajustes para volumen, brillo, espacios de trabajo y "
+#~ "el panel."

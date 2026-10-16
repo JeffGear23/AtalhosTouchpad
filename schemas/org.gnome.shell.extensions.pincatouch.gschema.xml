@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pincatouch"
+          path="/org/gnome/shell/extensions/pincatouch/">
+    <key name="two-pinch-in-shortcut" type="s">
+      <default>''</default>
+      <summary>Atalho para pinça de dois dedos para dentro</summary>
+    </key>
+    <key name="two-pinch-out-shortcut" type="s">
+      <default>''</default>
+      <summary>Atalho para pinça de dois dedos para fora</summary>
+    </key>
+    <key name="three-pinch-in-shortcut" type="s">
+      <default>''</default>
+      <summary>Atalho para pinça de três dedos para dentro</summary>
+    </key>
+    <key name="three-pinch-out-shortcut" type="s">
+      <default>''</default>
+      <summary>Atalho para pinça de três dedos para fora</summary>
+    </key>
+    <key name="four-pinch-in-shortcut" type="s">
+      <default>''</default>
+      <summary>Atalho para pinça de quatro dedos para dentro</summary>
+    </key>
+    <key name="four-pinch-out-shortcut" type="s">
+      <default>''</default>
+      <summary>Atalho para pinça de quatro dedos para fora</summary>
+    </key>
+    <key name="three-swipe-up-shortcut" type="s"><default>''</default><summary>Swipe de três dedos para cima</summary></key>
+    <key name="three-swipe-down-shortcut" type="s"><default>''</default><summary>Swipe de três dedos para baixo</summary></key>
+    <key name="three-swipe-left-shortcut" type="s"><default>''</default><summary>Swipe de três dedos para esquerda</summary></key>
+    <key name="three-swipe-right-shortcut" type="s"><default>''</default><summary>Swipe de três dedos para direita</summary></key>
+    <key name="four-swipe-up-shortcut" type="s"><default>''</default><summary>Swipe de quatro dedos para cima</summary></key>
+    <key name="four-swipe-down-shortcut" type="s"><default>''</default><summary>Swipe de quatro dedos para baixo</summary></key>
+    <key name="four-swipe-left-shortcut" type="s"><default>''</default><summary>Swipe de quatro dedos para esquerda</summary></key>
+    <key name="four-swipe-right-shortcut" type="s"><default>''</default><summary>Swipe de quatro dedos para direita</summary></key>
+    <key name="four-tap-shortcut" type="s"><default>''</default><summary>Atalho para toque de quatro dedos</summary></key>
+    <key name="four-tap-max-duration-ms" type="i">
+      <default>500</default>
+      <range min="250" max="1000"/>
+      <summary>Tempo máximo do toque de quatro dedos em milissegundos</summary>
+    </key>
+    <key name="four-tap-max-duration" type="d">
+      <default>250.0</default>
+      <range min="0.1" max="250.0"/>
+      <summary>Tempo máximo fracionado do toque de quatro dedos</summary>
+    </key>
+    <key name="four-tap-duration-migrated" type="b">
+      <default>false</default>
+      <summary>Indica se a duração antiga do toque foi migrada</summary>
+    </key>
+    <key name="four-tap-duration-mode" type="s">
+      <default>'limited'</default>
+      <summary>Modo de reconhecimento da duração do toque de quatro dedos</summary>
+    </key>
+    <key name="topbar-scroll-up-shortcut" type="s"><default>''</default><summary>Atalho para rolagem para cima na barra superior</summary></key>
+    <key name="topbar-scroll-down-shortcut" type="s"><default>''</default><summary>Atalho para rolagem para baixo na barra superior</summary></key>
+    <key name="topbar-left-scroll-up-shortcut" type="s"><default>''</default><summary>Atalho para rolagem para cima na região esquerda da barra superior</summary></key>
+    <key name="topbar-left-scroll-down-shortcut" type="s"><default>''</default><summary>Atalho para rolagem para baixo na região esquerda da barra superior</summary></key>
+    <key name="topbar-right-scroll-up-shortcut" type="s"><default>''</default><summary>Atalho para rolagem para cima na região direita da barra superior</summary></key>
+    <key name="topbar-right-scroll-down-shortcut" type="s"><default>''</default><summary>Atalho para rolagem para baixo na região direita da barra superior</summary></key>
+    <key name="topbar-zones-migrated" type="b"><default>false</default><summary>Indica se os atalhos antigos da Top Bar foram migrados</summary></key>
+    <key name="topbar-scroll-sensitivity" type="d">
+      <default>1.0</default>
+      <range min="0.1" max="5.0"/>
+      <summary>Sensibilidade da rolagem na barra superior</summary>
+    </key>
+  </schema>
+</schemalist>

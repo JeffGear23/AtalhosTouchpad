@@ -1,0 +1,13 @@
+# Arquivos temporários
+*~
+*.swp
+*.swo
+__pycache__/
+
+# Artefatos gerados localmente
+*.zip
+schemas/gschemas.compiled
+locale/*/LC_MESSAGES/*.mo
+
+# Logs e diagnósticos
+*.log

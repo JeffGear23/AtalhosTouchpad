@@ -1,0 +1,10 @@
+{
+  "uuid": "atalhostouchpad@jeffgear23.github.io",
+  "name": "AtalhosTouchpad",
+  "description": "Transforma pinças de 2, 3 e 4 dedos, swipes de 3 e 4 dedos e toque de 4 dedos em ações nativas do GNOME ou atalhos de teclado configuráveis, com predefinições para volume, brilho, workspaces e painel.",
+  "shell-version": ["49", "50", "51"],
+  "url": "https://github.com/JeffGear23/AtalhosTouchpad",
+  "settings-schema": "org.gnome.shell.extensions.pincatouch",
+  "gettext-domain": "pincatouch@manus.local",
+  "version-name": "1.12.1"
+}
