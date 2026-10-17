@@ -45,11 +45,11 @@ Quando um gesto não possui configuração, a PinçaTouch não o bloqueia: o eve
 
 ## Instalação
 
-O arquivo precisa manter o nome `pincatouch@manus.local.zip` e a extensão deve ser instalada com:
+O arquivo precisa manter o nome `atalhostouchpad@jeffgear23.github.io.zip` e a extensão deve ser instalada com:
 
 ```bash
-gnome-extensions install --force pincatouch@manus.local.zip
-gnome-extensions enable pincatouch@manus.local
+gnome-extensions install --force atalhostouchpad@jeffgear23.github.io.zip
+gnome-extensions enable atalhostouchpad@jeffgear23.github.io
 ```
 
 A sessão GNOME precisa oferecer eventos `TOUCHPAD_PINCH` ao Clutter. A extensão não usa X11, libinput direto, Touchégg ou APIs internas de swipe, e não desativa gestos nativos.

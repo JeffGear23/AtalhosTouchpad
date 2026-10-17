@@ -64,8 +64,8 @@ cd ~/pincatouch
 rm -f schemas/gschemas.compiled
 rm -f locale/*/LC_MESSAGES/*.mo
 glib-compile-schemas schemas
-msgfmt -o locale/en/LC_MESSAGES/pincatouch@manus.local.mo po/en.po
-msgfmt -o locale/es/LC_MESSAGES/pincatouch@manus.local.mo po/es.po
+msgfmt -o locale/en/LC_MESSAGES/atalhostouchpad@jeffgear23.github.io.mo po/en.po
+msgfmt -o locale/es/LC_MESSAGES/atalhostouchpad@jeffgear23.github.io.mo po/es.po
 node --check extension.js
 node --check native-actions.js
 node --check prefs.js
