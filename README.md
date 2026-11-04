@@ -43,14 +43,7 @@ Na aba **Top Bar**, recomenda-se usar as predefinições de volume e brilho, poi
 
 Quando um gesto não possui configuração, a PinçaTouch não o bloqueia: o evento é propagado e o comportamento padrão do GNOME continua disponível. Quando há um atalho configurado, a extensão captura aquele gesto e executa o atalho escolhido.
 
-## Instalação
-
-O arquivo precisa manter o nome `pincatouch@manus.local.zip` e a extensão deve ser instalada com:
-
-```bash
-gnome-extensions install --force pincatouch@manus.local.zip
-gnome-extensions enable pincatouch@manus.local
-```
+## Compatibilidade
 
 A sessão GNOME precisa oferecer eventos `TOUCHPAD_PINCH` ao Clutter. A extensão não usa X11, libinput direto, Touchégg ou APIs internas de swipe, e não desativa gestos nativos.
 
