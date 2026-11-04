@@ -6,5 +6,5 @@
   "url": "https://github.com/JeffGear23/AtalhosTouchpad",
   "settings-schema": "org.gnome.shell.extensions.pincatouch",
   "gettext-domain": "pincatouch@manus.local",
-  "version-name": "1.12.3"
+  "version-name": "1.12.4"
 }

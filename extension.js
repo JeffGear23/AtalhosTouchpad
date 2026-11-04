@@ -31,8 +31,17 @@ export default class PincaTouchExtension extends Extension {
             log('[pincatouch] TOUCHPAD_PINCH API is unavailable in this GNOME Shell');
             return;
         }
-        this._keyboard = Clutter.get_default_backend().get_default_seat()
-            .create_virtual_device(Clutter.InputDeviceType.KEYBOARD_DEVICE);
+        const backend = global.stage?.get_context?.()?.get_backend?.() ??
+            (typeof Clutter.get_default_backend === 'function' ?
+                Clutter.get_default_backend() : null);
+        const seat = backend?.get_default_seat?.();
+        if (!seat?.create_virtual_device) {
+            log('[pincatouch] virtual keyboard API is unavailable in this GNOME Shell');
+            return;
+        }
+        this._keyboard = seat.create_virtual_device(
+            Clutter.InputDeviceType.KEYBOARD_DEVICE,
+        );
         this._pinchDirection = null;
         this._pinchFingers = null;
         this._swipeDx = 0;
