@@ -1,4 +1,4 @@
-# AtalhosTouchpad 1.12.4
+# AtalhosTouchpad 1.13.0
 
 Extensão GNOME Shell para transformar pinças e gestos do touchpad em ações nativas do GNOME ou atalhos de teclado configuráveis.
 

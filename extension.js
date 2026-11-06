@@ -13,7 +13,6 @@ const MAX_TAP_MAX_DURATION_MS = 250.0;
 const DEFAULT_TOPBAR_SCROLL_SENSITIVITY = 1.0;
 const MIN_TOPBAR_SCROLL_SENSITIVITY = 0.1;
 const MAX_TOPBAR_SCROLL_SENSITIVITY = 5.0;
-const DEBUG = false;
 
 export default class PincaTouchExtension extends Extension {
     enable() {
@@ -31,14 +30,8 @@ export default class PincaTouchExtension extends Extension {
             log('[pincatouch] TOUCHPAD_PINCH API is unavailable in this GNOME Shell');
             return;
         }
-        const backend = global.stage?.get_context?.()?.get_backend?.() ??
-            (typeof Clutter.get_default_backend === 'function' ?
-                Clutter.get_default_backend() : null);
-        const seat = backend?.get_default_seat?.();
-        if (!seat?.create_virtual_device) {
-            log('[pincatouch] virtual keyboard API is unavailable in this GNOME Shell');
-            return;
-        }
+        // The stage owns the backend used by the running Shell.
+        const seat = global.stage.context.get_backend().get_default_seat();
         this._keyboard = seat.create_virtual_device(
             Clutter.InputDeviceType.KEYBOARD_DEVICE,
         );
@@ -63,8 +56,6 @@ export default class PincaTouchExtension extends Extension {
             );
         }
 
-        if (DEBUG)
-            log('[pincatouch] enabled; waiting for two-, three- or four-finger pinch');
     }
 
     disable() {
@@ -214,8 +205,6 @@ export default class PincaTouchExtension extends Extension {
         if (phase === phases.BEGIN) {
             this._pinchDirection = null;
             this._pinchFingers = fingers;
-            if (DEBUG)
-                log(`[pincatouch] TOUCHPAD_PINCH BEGIN: ${fingers} fingers`);
             return Clutter.EVENT_STOP;
         }
 
@@ -228,8 +217,6 @@ export default class PincaTouchExtension extends Extension {
             if (this._pinchDirection === null &&
                 Math.abs(delta) >= PINCH_THRESHOLD) {
                 this._pinchDirection = delta < 0 ? 'in' : 'out';
-                if (DEBUG)
-                    log(`[pincatouch] pinch-${this._pinchDirection}, scale=${scale.toFixed(3)}`);
             }
             return Clutter.EVENT_STOP;
         }
@@ -239,8 +226,6 @@ export default class PincaTouchExtension extends Extension {
             const gestureFingers = this._pinchFingers;
             this._pinchDirection = null;
             this._pinchFingers = null;
-            if (DEBUG)
-                log(`[pincatouch] TOUCHPAD_PINCH END: ${gestureFingers ?? fingers} fingers, ${direction ?? 'below threshold'}`);
             if (direction)
                 this._scheduleShortcut(gestureFingers, direction);
             return Clutter.EVENT_STOP;
@@ -249,8 +234,6 @@ export default class PincaTouchExtension extends Extension {
         if (phase === phases.CANCEL) {
             this._pinchDirection = null;
             this._pinchFingers = null;
-            if (DEBUG)
-                log('[pincatouch] TOUCHPAD_PINCH CANCEL');
             return Clutter.EVENT_STOP;
         }
 
@@ -297,10 +280,6 @@ export default class PincaTouchExtension extends Extension {
         }
 
         if (phase === phases.END || phase === phases.CANCEL) {
-            const dx = this._swipeDx;
-            const dy = this._swipeDy;
-            const gestureFingers = this._swipeFingers ?? fingers;
-            const elapsed = (GLib.get_monotonic_time() - this._swipeStartTime) / 1000;
             this._swipeDx = 0;
             this._swipeDy = 0;
             this._swipeFingers = null;
